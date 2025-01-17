@@ -20,7 +20,7 @@ I cobbled together a fairly straightforward process to get your in-app collectio
 ---
 
 ### Step 2: Scroll (slowly) all the way to the bottom of the page
-- Don’t send TikTok too many requests at once; otherwise, you risk getting temporarily IP banned while signed in, which is bad.
+- Don’t send TikTok too many requests at once; otherwise, you risk getting (temporarily at first) IP banned while signed in, which is bad.
 - If you have over 1000 videos in your collection, I would recommend scrolling halfway and then coming back in half an hour to finish scrolling. Mimic semi-natural behavior and be careful.  
   > My VPN does not work at all at any step of this process, FYI.
 
