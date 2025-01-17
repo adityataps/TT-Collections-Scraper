@@ -106,4 +106,10 @@ These contain all the links to the videos and some other metadata we need.
 ```
 Note: Slideshow posts have a lot of missing data. yt-dlp cannot fully access slideshow posts. TikTokApi might solve this, but I couldn’t figure it out.
 
+# Disclaimers
+
+Scraping is against TikTok guidelines. If they ban you for it, or if anything unsavory happens, its not my fault. Proceed at your own risk.
+
+I'm not a good programmer, and this code is kind of garbage. It's been edited to hell by just about every LLM out there. I'm publishing it because all the tasks it performs are very low-stakes, and it has worked for 100000+ posts at this point for me. I am not an expert. Proceed at your own risk.
+
 # Good luck!
