@@ -29,9 +29,6 @@ for metadata_path in sorted(glob.glob(os.path.join(metadata_folder_path, '**/htm
     if os.path.exists(ERRORS_FILE):
         os.remove(ERRORS_FILE)  # Clear previous errors
 
-
-    # breakpoint()
-
     # Load HTML metadata
     with open(metadata_path, "r", encoding="utf-8") as f:
         metadata = json.load(f)
@@ -50,6 +47,7 @@ for metadata_path in sorted(glob.glob(os.path.join(metadata_folder_path, '**/htm
         ydl_opts = {
             "quiet": False,
             "outtmpl": output_path,
+            # NOTE: Not sure how to properly pass in this arg.
             # "extractor_args": {
             #     'tiktok': {
             #         'api_hostname': 'api16-normal-c-useast1a.tiktokv.com',
