@@ -1,0 +1,9 @@
+beautifulsoup4==4.12.3
+certifi==2024.12.14
+charset-normalizer==3.4.1
+gallery_dl @ https://github.com/CasualYT31/gallery-dl-tiktok-support/archive/tiktok-support.zip#sha256=c4bda9572a928a07ff6cfd5556410d449f156eb1b0c1233eaa482bccd5d99688
+idna==3.10
+requests==2.32.3
+soupsieve==2.6
+urllib3==2.3.0
+yt-dlp==2025.1.15

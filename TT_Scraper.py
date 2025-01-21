@@ -1,5 +1,6 @@
 import csv
 import os
+import glob
 import json
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
@@ -92,5 +93,8 @@ def extract_tiktok_links(file_path):
         json.dump(tiktok_data, file, indent=4, ensure_ascii=False)
 
 # Prompt the user to enter the file path
-file_path = input("Please enter the path to the HTML file: ")
-extract_tiktok_links(file_path)
+folder_path = input("Please enter the folder with the HTML files: ")
+
+for file_path in glob.glob(os.path.join(folder_path, '**/*.html')):
+    print(f"Processing file: {file_path}")
+    extract_tiktok_links(file_path)
